@@ -1,12 +1,24 @@
-
-const nome = "Levi";    
-const curso = "Backend";
+const nome = "Levi";
 const idade = 23;
-const cidade = "SP";
-const objetivo ="Consegui um estagio de backend";
+const cidade = "São Paulo";
+const estudandoBackend = true;
 
-console.log("Nome:", nome);
-console.log("Curso:",curso);
-console.log("Idade:",idade);
-console.log("Cidade", cidade);
-console.log("Objetivo", objetivo);
+
+
+console.log("Nome", nome);
+console.log("cidade", cidade);
+
+
+
+if (idade >= 18) {
+  console.log("Maior de idade.")
+} else {
+  console.log("Menor de idade.");
+}
+
+
+
+if (estudandoBackend === true) {
+  console.log("Bem vindo ao curso Backend 2026!");
+}
+
